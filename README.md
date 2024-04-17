@@ -15,3 +15,12 @@ Please build the following form component
 * Component should have a responsive layout
 * Component should be appropriately styled
 * Unit tests are not required
+
+## Developer notes (Jon Russell)
+
+* Name input uses the provided mock API to check the chosen name.
+* Name input validates while typing, with a slight delay to prevent false positives/negatives when user is done typing.
+* Locations are fetched from the provided mock API.
+* Layout is responsive.
+* Components are appropriately styled, including the error message if the user enters an invalid name.
+* Unit tests omitted.
